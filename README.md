@@ -11,9 +11,8 @@ Questions on Interface :
 4.Create a Notification interface with a method notifyUser(). Implement it in classes EmailNotification, SMSNotification, and PushNotification.
 
 5. Design an interface Transport with method bookTicket(). Implement it in Bus, Train, and Flight. Show runtime polymorphism.
-6. 
-7. Create a shopping cart interface with method checkout(). Implement it in classes like CashOnDelivery, UPIPayment, and CreditCardPayment.
-8. 
+6. Create a shopping cart interface with method checkout(). Implement it in classes like CashOnDelivery, UPIPayment, and CreditCardPayment.
+
 7.Create an interface ATM with methods withdraw() and deposit(). Implement it in class Customer. Perform operations using interface reference
 
 8.Create two interfaces Printable and Showable with a method display(). Create a class Demo that implements both interfaces. How will you resolve the method conflict if both interfaces have default display() methods?
