@@ -3,22 +3,36 @@ Questions on Interface :
 Questions on Interface : 
 
 1.Define an interface Shape with a method area(). Create two classes Rectangle and Circle that implement this interface and calculate the area accordingly.
+
 2.Create an interface Animal with a method sound(). Implement this interface in classes Dog, Cat, and Cow, each printing its own sound.
+
 3.Create a program using an interface Vehicle with a method startEngine(). Implement it in classes Car, Bike, and Truck.
+
 4.Create a Notification interface with a method notifyUser(). Implement it in classes EmailNotification, SMSNotification, and PushNotification.
+
 5. Design an interface Transport with method bookTicket(). Implement it in Bus, Train, and Flight. Show runtime polymorphism.
-6. Create a shopping cart interface with method checkout(). Implement it in classes like CashOnDelivery, UPIPayment, and CreditCardPayment.
-7.Create an interface ATM with methods withdraw() and deposit(). Implement it in class Customer. Perform operations using interface reference.
+6. 
+7. Create a shopping cart interface with method checkout(). Implement it in classes like CashOnDelivery, UPIPayment, and CreditCardPayment.
+8. 
+7.Create an interface ATM with methods withdraw() and deposit(). Implement it in class Customer. Perform operations using interface reference
+
 8.Create two interfaces Printable and Showable with a method display(). Create a class Demo that implements both interfaces. How will you resolve the method conflict if both interfaces have default display() methods?
+
 9.Create interface Shape with method area(). Create another interface Displayable that extends Shape and adds method display(). Then, create a class Circle that implements Displayable.
+
 10.Create an interface Greeting with method void sayHello();
+
 Create two classes EnglishGreeting and HindiGreeting that implement it.
 Use interface reference to call their respective implementations.
+
 11.Create interface Arithmetic with methods add(), subtract(), multiply(), and divide(). Implement all in class Calculator.
+
 12.Create interfaces Deposit, Withdraw, and BalanceCheck, each with one method.
 Implement them in a class BankApp to manage account operations.
+
 13.Create interfaces OrderPlacement, Payment, and Delivery.
 Implement them in a class AmazonOrder to represent real order flow.
+
 14.Create interfaces Booking, Cancellation, and TicketStatus.
 Implement in class FlightService to simulate airline ticketing.
 
